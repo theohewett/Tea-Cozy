@@ -57,7 +57,7 @@ li a:hover {
 }
 
 .mission-text {
-    background-color: black;
+    background-color: rgba(0,0,0, 0.5);
     width: 100%;
 }
 
@@ -71,9 +71,6 @@ li a:hover {
 }
 
 /* Featured section */
-.featured {
-    max-width: 1000px;
-}
 
 .gallery {
     display: flex;
@@ -98,5 +95,38 @@ img {
 
 figcaption h4 {
     margin: 5px;
+}
+
+/* Location sections */
+#locations {
+    margin: 0 auto;
+    background-image: url("../img-locations-background.webp");
+    height: 500px;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.address {
+    width: 300px;
+    background-color: rgba(0,0,0, 0.5);
+    font-size: 0.9rem;
+    display: inline-block;
+    margin: 0px 40px 90px 40px;
+}
+
+.locale {
+    font-weight: normal;
+}
+
+.contact {
+    height: 200px;
+}
+
+footer {
+    text-align: left;
+    margin-left: 20px;
 }
 
